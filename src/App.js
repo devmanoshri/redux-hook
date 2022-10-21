@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 //import UseStateHook from "./components/UseStateHook";
-import UseEffectHook from "./components/UseEffectHook";
-
+//import UseEffectHook from "./components/UseEffectHook";
+import MouseContainer from "./components/MouseContainer";
 function App() {
   return (
     <div className="App">
       {/* <UseStateHook /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+      <MouseContainer />
     </div>
   );
 }
