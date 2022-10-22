@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 function UseEffectDataFetching() {
-  const [post, setPosts] = useState([]);
+  const [posts, setPosts] = useState([]);
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
@@ -16,7 +16,7 @@ function UseEffectDataFetching() {
   return (
     <div>
       <ul>
-        {post.map((post) => (
+        {posts.map((post) => (
           <li key={post.id}>{post.title}</li>
         ))}
       </ul>
