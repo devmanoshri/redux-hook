@@ -12,7 +12,7 @@ function UseEffectDataFetching() {
       .catch((err) => {
         console.log(err);
       });
-  });
+  }, []);
   return (
     <div>
       <ul>
