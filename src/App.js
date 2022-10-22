@@ -6,8 +6,8 @@ import "./App.css";
 //import MouseContainer from "./components/MouseContainer";
 //import IntervalHookCounter from "./components/IntervalHookCounter";
 //import UseEffectDataFetching from "./components/UseEffectDataFetching";
-import UseEffectDataFetching2 from "./components/UseEffectDataFetching2";
-
+//import UseEffectDataFetching2 from "./components/UseEffectDataFetching2";
+import UseEffectDataFetching3 from "./components/UseEffectDataFetching3";
 function App() {
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <MouseContainer /> */}
       {/* <IntervalHookCounter /> */}
-      <UseEffectDataFetching2 />
+      <UseEffectDataFetching3 />
     </div>
   );
 }
