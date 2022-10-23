@@ -8,7 +8,8 @@ import "./App.css";
 //import UseEffectDataFetching from "./components/UseEffectDataFetching";
 //import UseEffectDataFetching2 from "./components/UseEffectDataFetching2";
 //import UseEffectDataFetching3 from "./components/UseEffectDataFetching3";
-import UserContextHookLevel1 from "./components/UserContextHookLevel1";
+//import UserContextHookLevel1 from "./components/UserContextHookLevel1";
+import UseReducerHook1 from "./components/UseReducerHook1";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -21,11 +22,12 @@ function App() {
       {/* <MouseContainer /> */}
       {/* <IntervalHookCounter /> */}
       {/* <UseEffectDataFetching3 /> */}
-      <UserContext.Provider value={"Manoshri"}>
+      {/* <UserContext.Provider value={"Manoshri"}>
         <ChannelContext.Provider value={"abcd"}>
           <UserContextHookLevel1 />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <UseReducerHook1 />
     </div>
   );
 }
