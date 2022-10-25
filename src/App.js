@@ -9,7 +9,8 @@ import "./App.css";
 //import UseEffectDataFetching2 from "./components/UseEffectDataFetching2";
 //import UseEffectDataFetching3 from "./components/UseEffectDataFetching3";
 //import UserContextHookLevel1 from "./components/UserContextHookLevel1";
-import UseReducerMultiple from "./components/UseReducerMultiple";
+//import UseReducerMultiple from "./components/UseReducerMultiple";
+import UseReducerDataFetching from "./components/UseReducerDataFetching";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -27,7 +28,8 @@ function App() {
           <UserContextHookLevel1 />
         </ChannelContext.Provider>
       </UserContext.Provider> */}
-      <UseReducerMultiple />
+      {/* <UseReducerMultiple /> */}
+      <UseReducerDataFetching />
     </div>
   );
 }
